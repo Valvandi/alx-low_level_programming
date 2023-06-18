@@ -4,7 +4,7 @@
 
 /* more headers goes there */
 
-/* main - entry point of the program*/
+/* main: entry point of the program*/
 int main(void)
 {
 	int n;
