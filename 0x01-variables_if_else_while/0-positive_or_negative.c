@@ -5,7 +5,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/* main -Entry point of the program*/
+/* main function: Entry point of the program*/
 int main(void)
 {
 	int n;
