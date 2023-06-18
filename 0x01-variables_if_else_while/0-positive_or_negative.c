@@ -3,26 +3,25 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/* main - Entry point of code*/
+/*main - Entry point of the program*/
 int main(void)
 {
 	int n;
 
-  	srand(time(0));
-    	n = rand() - RAND_MAX / 2;
-        /* your code goes there */
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
 	if (n > 0)
 	{
-	    printf("is positive\n");
+		Printf("is positive\n")
 	}
 	if (n == 0)
 	{
-	    printf("is zero\n");
+		printf("is zero\n")
 	}
 	if (n < 0)
 	{
-	    printf("is negative\n");
+		printf("is negative\n")
 	}
-
-     	return (0);
+	return (0);
 }
