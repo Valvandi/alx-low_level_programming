@@ -2,10 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* more headers goes there */
-
-/* main: entry point of the program*/
-/* Return - return (0) succes */
+/**
+ * more headers goes there
+ *
+ * main: entry point of the program
+ *
+ * Return - return (0) succes
+ */
 int main(void)
 {
 	int n;
