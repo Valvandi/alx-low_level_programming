@@ -3,11 +3,11 @@
 #include <time.h>
 
 /**
- * more headers goes there
  *
- * main: entry point of the program
  *
- * Return - return (0) succes
+ * main - entry point of the program
+ *
+ * Return:  Always 0 (succes)
  */
 int main(void)
 {
