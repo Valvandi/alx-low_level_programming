@@ -5,7 +5,7 @@
 /* more headers goes there */
 
 /* main: entry point of the program*/
-/* Return- return (0) succes */
+/* Return - return (0) succes */
 int main(void)
 {
 	int n;
