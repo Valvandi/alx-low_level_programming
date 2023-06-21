@@ -1,14 +1,22 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * main - Entry point
  *
- * Return: always 0 (success)
+ * Return: always 0 success
  */
+
 int main(void)
 {
-	putchar("_putchar\n");	
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
-	return (0)
+	return (0);
 }
 
