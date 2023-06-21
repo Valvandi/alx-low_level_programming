@@ -27,7 +27,7 @@ int print_sign(int n)
 		value = -1;
 	}
 
-	return value;
+	return (value);
 
 }
 
