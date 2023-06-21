@@ -7,8 +7,9 @@
  * @n: A variable
  */
 
-int _abs(int n)
+int _abs(int)
 {
+	int n;
 	int abs(n);
 	_putchar(n);
 
