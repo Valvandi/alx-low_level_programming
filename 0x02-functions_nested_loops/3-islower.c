@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _islower(int c) - Check the code
+ * _islower - Check the code
  *
- * c : is a parameter
+ * @c : is a parameter of type integer
  *
  * Return: 1 if c is lowercase and 0 if otherwise
  *
