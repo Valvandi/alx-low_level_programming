@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * _abs - checks the code
  *
@@ -10,7 +11,7 @@
 int _abs(int)
 {
 	int n;
-	int abs(n);
+	n = abs(n);
 	_putchar(n);
 
 	return (0);
