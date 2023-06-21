@@ -2,9 +2,11 @@
 /**
  * _islower(int c) - check the code
  *
- * Return 1 if c is lowercase
+ * c : is variable
  *
- * Return 0 if otherwise
+ * Return: 1 if c is lowercase
+ *
+ * Return: 0 if otherwise
  */
 
 int _islower(int c)
