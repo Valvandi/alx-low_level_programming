@@ -1,12 +1,11 @@
 #include "main.h"
 /**
- * _islower(int c) - check the code
+ * _islower(int c) - Check the code
  *
- * c : is variable
+ * c : is a parameter
  *
- * Return: 1 if c is lowercase
+ * Return: 1 if c is lowercase and 0 if otherwise
  *
- * Return: 0 if otherwise
  */
 
 int _islower(int c)
