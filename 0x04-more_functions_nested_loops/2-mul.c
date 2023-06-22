@@ -1,4 +1,7 @@
-#include "math.h"
+#include <stdio.h>
+#include <ctype.h>
+#include "main.h"
+
 /**
  * mul - multiplies 2 integers
  *
