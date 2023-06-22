@@ -18,7 +18,10 @@
 
 int mul(int a, int b)
 {
+	int prod;
 
-	return (a * b);
+	prod = (a * b);
+
+	return (prod);
 
 }
