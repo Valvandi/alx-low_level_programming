@@ -7,7 +7,9 @@
  *
  * Return: the value multiplication
  *
- * @a @b : variables
+ * @a: function argument
+ *
+ * @b: function argment
  *
  * @result: variable
  *
@@ -16,7 +18,7 @@
 
 int mul(int a, int b)
 {
-	int result;
-	result = (a * b);
-	return (result);
+
+	return (a * b);
+
 }
