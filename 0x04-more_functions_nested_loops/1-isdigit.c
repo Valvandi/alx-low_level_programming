@@ -22,7 +22,7 @@ int _isdigit(int c)
 		{
 			return (0);
 		}
-		return (c);
+		
 	}
 	return (c);
 }
