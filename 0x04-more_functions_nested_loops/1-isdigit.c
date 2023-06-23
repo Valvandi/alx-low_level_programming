@@ -8,16 +8,14 @@
  *
  * @c: int variable argument
  *
- * @i: int variable
  */
 
 int _isdigit(int c)
 {
-	int i;
 	
-	for (i = 0; i < 10; i++)
+	for (c = 0; c < 9; c++)
 	{
-		if ((isdigit(i)))
+		if (isdigit(c))
 		{
 			return (1);
 		}
@@ -26,9 +24,9 @@ int _isdigit(int c)
 			return (0);
 
 		}
-		return (i);
+		return (c);
 	}
-	
-	return (i);
+
+	return (c);
 
 }
