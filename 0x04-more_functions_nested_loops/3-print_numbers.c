@@ -21,7 +21,7 @@ void print_numbers(void);
 			putchar(i);
 
 		}
-		
+
 	}
 	putchat('\n');
 
