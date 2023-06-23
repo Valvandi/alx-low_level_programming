@@ -14,18 +14,17 @@ void print_numbers(void);
 {
 	int i;
 
-	for (i = 0; i <= 9; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
 		if (isdigit(i))
 		{
 			putchar(i);
-			putchar('\n');
 
 		}
-
-		return (i);
+		
 	}
-	return (i);
+	putchat('\n');
+
 }
 
 
