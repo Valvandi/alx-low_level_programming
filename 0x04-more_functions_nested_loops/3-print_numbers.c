@@ -14,16 +14,12 @@ void print_numbers(void);
 {
 	int i;
 
-	for (i = 0; i <= 9; i++)
+	if (isdigit(i))
 	{
-		_putchar(i);
+		_putchar(n);
 		_putchar('\n');
-
-
-		return (i);
-
 	}
 	return (i);
-
 }
+
 
