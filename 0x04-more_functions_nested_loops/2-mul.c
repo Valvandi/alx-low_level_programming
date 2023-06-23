@@ -7,16 +7,18 @@
  *
  * Return: the value multiplication
  *
- * @a: function argument
+ * @a: variable
  *
- * @b: function argument
+ * @b: variable
  *
  * @result: variable
  *
  */
 
-int mul(int a, int b)
+int mul(void)
 {
+	int a;
+	int b;
 	int prod;
 
 	prod = (a * b);
