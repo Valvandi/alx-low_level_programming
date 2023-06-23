@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main -causes and infinite loop
- * 
+ *
  * Return: 0
  */
 
