@@ -7,24 +7,28 @@
  * Return: 1 if c is a digit and 0 if otherwise
  *
  * @c: int variable argument
+ *
+ * @i: int variable
  */
 
 int _isdigit(int c)
 {
-	for (c = 0; c <= 9; c++)
+	int i;
+	
+	for (i = 0; i < 10; i++)
 	{
-
-		if (isdigit(c))
+		if ((i > 0) && (i < 10))
 		{
 			return (1);
 		}
 		else
 		{
 			return (0);
+
 		}
-
-		return (c);
+		return (i);
 	}
+	
+	return (i);
 
-	return (c);
 }
