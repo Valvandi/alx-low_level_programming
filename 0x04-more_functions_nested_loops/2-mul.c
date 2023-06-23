@@ -11,7 +11,7 @@
  *
  * @b: variable
  *
- * @result: variable
+ * @prod: variable
  *
  */
 
