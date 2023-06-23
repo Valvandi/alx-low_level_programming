@@ -9,10 +9,9 @@
  *
  * @a: function argument
  *
- * @b: function argment
+ * @b: function argument
  *
  * @result: variable
- *
  *
  */
 
