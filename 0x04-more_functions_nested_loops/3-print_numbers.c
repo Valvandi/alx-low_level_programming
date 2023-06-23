@@ -6,7 +6,7 @@
  *
  * Return: i at the end of program
  *
- * @i - variable declared in function
+ *
  *
  */
 
@@ -16,11 +16,7 @@ void print_numbers(void);
 
 	for (i = '0'; i <= '9'; i++)
 	{
-		if (isdigit(i))
-		{
-			putchar(i);
-
-		}
+		putchar(i);
 
 	}
 	putchat('\n');
