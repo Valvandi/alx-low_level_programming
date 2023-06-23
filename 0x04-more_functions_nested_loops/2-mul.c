@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * mul - multiplies 2 integers
+ * mul - checks code
  *
  * Return: the value multiplication
  *
@@ -15,10 +15,9 @@
  *
  */
 
-int mul(void)
+int mul(int a, int b)
 {
-	int a;
-	int b;
+
 	int prod;
 
 	prod = (a * b);
