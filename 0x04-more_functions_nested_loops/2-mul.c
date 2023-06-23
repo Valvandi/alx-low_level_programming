@@ -5,20 +5,18 @@
 /**
  * mul - checks code
  *
- * Return: product
+ * Return: value
  *
  * @a: variable
  *
  * @b: variable
- *
- * @product: variable
  *
  */
 
 int mul(int a, int b)
 {
 	int product;
-	
+
 	product = (a * b);
 	return (product);
 
