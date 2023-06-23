@@ -1,13 +1,8 @@
 #include "main.h"
-#include <stdio.h>
-#include <ctype.h>
 /**
- * main- check code
- * 
- * Return: 0 
- *
+ * main - Tests function that print integer is positive or negative
+ * Return: 0
  */
-
 int main(void)
 {
 	int i;
@@ -16,6 +11,4 @@ int main(void)
 	positive_or_negative(i);
 
 	return (0);
-
 }
-
