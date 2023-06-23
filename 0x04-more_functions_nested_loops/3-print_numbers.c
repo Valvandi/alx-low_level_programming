@@ -25,6 +25,7 @@ void print_numbers(void);
 
 		return (i);
 	}
+	return (i);
 }
 
 
