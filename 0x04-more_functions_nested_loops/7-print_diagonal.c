@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * 
+ * print_diagonal - check code 
  *
- *
+ * @n: variable argument
  *
  *
  *
