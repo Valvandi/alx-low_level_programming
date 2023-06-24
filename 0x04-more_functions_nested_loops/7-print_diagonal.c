@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
+#include <unistd.h>
 /**
  * print_diagonal - check code 
  *
