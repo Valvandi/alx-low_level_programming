@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *
+ * 
  *
  *
  *
@@ -26,7 +26,7 @@ void print_diagonal(int n )
 		}
 
 		putchar('\\');
-		putchat('\n');
+		putchar('\n');
 		spaces++;
 	}
 }
