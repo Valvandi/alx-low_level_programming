@@ -2,7 +2,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * print_diagonal - check code 
+ * print_diagonal - check code
  *
  * @n: variable argument
  *
@@ -10,7 +10,7 @@
  *
  */
 
-void print_diagonal(int n )
+void print_diagonal(int n)
 {
 	if (n <= 0)
 	{
@@ -19,9 +19,11 @@ void print_diagonal(int n )
 	}
 
 	int spaces = 0;
+
 	while (spaces < n)
 	{
 		int i;
+
 		for (i = 0; i < spaces; i++)
 		{
 			putchar(' ');
