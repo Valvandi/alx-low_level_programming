@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
+ * reset_to_98 - check code
  *
  *
  *
@@ -15,6 +15,7 @@ void reset_to_98(int *n)
 	ip = &n;
 
 	putchar(n);
+	return (0);
 }
 
 
