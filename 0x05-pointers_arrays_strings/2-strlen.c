@@ -10,7 +10,8 @@
  */
 int _strlen(char *s)
 {
-	strnlen(char *s);
+	size_t strnlen(const char *s, size_t maxlen);
+	return (maxlen);
 
 }
 
