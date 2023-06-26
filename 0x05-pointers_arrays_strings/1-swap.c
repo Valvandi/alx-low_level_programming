@@ -3,7 +3,7 @@
 /**
  * swap_int - check code
  *
- *
+ * @a and @b function variables
  *
  */
 void swap_int(int *a, int *b)
