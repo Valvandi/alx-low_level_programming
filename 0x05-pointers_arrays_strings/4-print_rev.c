@@ -8,12 +8,12 @@
  */
 void print_rev(char *s)
 {
-	int i;
+	char i;
 	char len = strlen(s);
 
-	for (i > 0; i <= len; i--)
+	for (i = len-1 ; i >= 0; i--)
 	{
-		printf("%s\n", i);
+		printf("%c\n", i);
 	}
 
 }
