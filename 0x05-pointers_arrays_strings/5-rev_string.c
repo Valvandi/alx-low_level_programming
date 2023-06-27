@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <string.h>
 /**
  * rev_string - check code
  *
@@ -15,7 +16,6 @@ void rev_string(char *s)
 		printf("%d\n", s[i]);
 
 	}
-	return (0);
 
 }
 
