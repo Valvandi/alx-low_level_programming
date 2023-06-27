@@ -2,13 +2,15 @@
 #include "main.h"
 #include <string.h>
 /**
- * print_rev - function 
+ * print_rev - function
  *
  * @s: parameter od function
  */
 void print_rev(char *s)
 {
-	len = strlen(s);
+	int i;
+	int len = strlen(s);
+
 	for (i = 0; i <= len; i--)
 	{
 		printf("%d\n", i);
