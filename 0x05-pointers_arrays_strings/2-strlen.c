@@ -1,5 +1,6 @@
 #include <string.h>
 #include <stdio.h>
+#include "main.h"
 /**
  * _strlen - check code
  *
@@ -9,5 +10,5 @@
  */
 int _strlen(char *s) {
   
-	strlen(char *s);
+	strlen(const char *s);
 }
