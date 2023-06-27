@@ -12,6 +12,7 @@ void print_rev(char *s)
 	for (i = 0; i <= len; i--)
 	{
 		printf("%d\n", i);
+	}
 
 }
 
