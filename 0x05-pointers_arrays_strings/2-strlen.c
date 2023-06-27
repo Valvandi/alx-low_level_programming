@@ -8,9 +8,9 @@
  *
  *
  */
-int _strlen(const *s)
+int _strlen(char *s)
 {
-	strlen(*s);
+	strlen(const *s);
 
 }
 
