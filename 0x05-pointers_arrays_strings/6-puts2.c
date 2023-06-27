@@ -15,6 +15,7 @@ void puts2(char *str)
 	{
 		char j  = str[i];
 		i += 2;
+
 		putchar(j);
 
 	}
