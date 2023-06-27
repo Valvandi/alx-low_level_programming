@@ -9,6 +9,6 @@
  *
  */
 int _strlen(char *s) {
-  
-	strlen(const char *s);
+	size_t strlen(s);
+	return (size_t);
 }
