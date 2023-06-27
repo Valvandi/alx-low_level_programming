@@ -10,7 +10,6 @@ void puts2(char *str)
 {
 	int i;
 	int size = strlen(str);
-	int full_size = strlen(str) - 1;
 
 	for (i = 0; i <= size; i++)
 	{
