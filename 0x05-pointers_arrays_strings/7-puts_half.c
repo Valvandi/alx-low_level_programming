@@ -17,11 +17,11 @@ void puts_half(char *str)
 	{
 		if (length % 2 == 0)
 		{
-			printf("%s\n", half_length);
+			putchar(half_length, s);
 		}
 		else
 		{
-			printf("%s\n", str + half_length);
+			putchar(str + half_length);
 		}
 	}
 }
