@@ -8,10 +8,11 @@
  *
  *
  */
-int _strlen(char *s) {
-	len = strlen(s);
+int _strlen(char *s)
+{
+	int len = strlen(s);
 
-	printf(len);
+	printf("length is: %d\n",len);
 
 	return (0);
 }
