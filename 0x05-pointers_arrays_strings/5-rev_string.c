@@ -9,14 +9,20 @@
  */
 void rev_string(char *s)
 {
-	int i;
+	int size = strlen(s);
+	int i = 0;
+	int end = size - 1;
 
-	for (i = strlen(s) - 1; i > 0; i--)
+	while (i < end)
 	{
-		putchar(s[i]);
+		char word = s[i];
 
+		s[i] = s[end];
+		s[end] = word;
+
+		i++;
+		end--;
 	}
-
 
 }
 
