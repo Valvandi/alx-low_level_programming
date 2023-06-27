@@ -3,7 +3,7 @@
 /**
  * _puts - check code
  *
- * str: function argument
+ * @str: function argument
  */
 void _puts(char *str)
 {
