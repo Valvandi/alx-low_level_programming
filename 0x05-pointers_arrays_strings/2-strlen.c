@@ -12,7 +12,7 @@ int _strlen(char *s)
 {
 	int len = strlen(s);
 
-	printf("%zu\n", len);
+	printf("%d\n", len);
 
 	return (0);
 }
