@@ -1,18 +1,18 @@
-#include <stdio.h>
-#include "main.h"
 #include <string.h>
-/**
- * _strlen- check len of string
- *
- * Return: always 0
- *
- *
- */
-int _strlen(char *s)
-{
-	strlen(const *s);
+#include <stdio.h>
 
+int _strlen(char *s) {
+    int length = 0;
+    while (*s != '\0') {
+        length++;
+        s++;
+    }
+    return length;
 }
 
-
-
+int main() {
+    char str[] = "Hello, world!";
+    int length = _strlen(str);
+    printf("Length of the string: %d\n", length);
+    return 0;
+}
