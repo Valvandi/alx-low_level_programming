@@ -4,15 +4,15 @@
 /**
  * _strlen - check code
  *
- * @*s: function argument
+ * @s: function argument
  *
- *
+ * Return: always 0
  */
 int _strlen(char *s)
 {
 	int len = strlen(s);
 
-	printf("%d\n",len);
+	printf("%d\n", len);
 
 	return (0);
 }
