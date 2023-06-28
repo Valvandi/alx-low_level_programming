@@ -11,17 +11,20 @@ void puts_half(char *str)
 {
 	int i;
 	int length = (strlen(str) - 1);
+	char word;
 	int half_length = ((strlen(str) - 1) / 2);
 
 	for (i = 0; i <= length; i++)
 	{
 		if (length % 2 == 0)
 		{
-			putchar(half_length, str);
+			word = str[i];
+			putchar(word);
 		}
 		else
 		{
-			putchar(str + half_length);
+			word = str[i];
+			putchar(word);
 		}
 	}
 }
