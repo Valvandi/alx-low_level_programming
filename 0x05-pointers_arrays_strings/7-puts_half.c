@@ -14,17 +14,17 @@ void puts_half(char *str)
 	int index = length / 2;
 	char word;
 
-	for (i = 0; i < length; i++)
+	for (i = 0; i < index; i++)
 	{
 		if (length % 2 == 0)
 		{
-			word  = index;
+			word  = str[i];
 			putchar(word);
 
 		}
 		else
 		{
-			word = 1 + index;
+			word = str[i];
 			putchar(word);
 
 		}
