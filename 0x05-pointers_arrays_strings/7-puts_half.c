@@ -11,18 +11,21 @@ void puts_half(char *str)
 {
 	int i;
 	int length = (strlen(str) - 1);
-	int index;
+	int index = length / 2;
+	char word;
 
 	for (i = 0; i < length; i++)
 	{
 		if (length % 2 == 0)
 		{
-			index = (length / 2);
+			word  = index;
+			putchar(word);
 
 		}
 		else
 		{
-			index = (length - 1 / 2);
+			word = 1 + index;
+			putchar(word);
 
 		}
 		printf("%s\n", str + index);
