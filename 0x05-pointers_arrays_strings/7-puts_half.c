@@ -14,7 +14,7 @@ void puts_half(char *str)
 	int index = length / 2;
 	char word;
 
-	for (i = 0; i < index; i++)
+	for (i = length; i < index; i++)
 	{
 		if (length % 2 == 0)
 		{
