@@ -1,37 +1,36 @@
 #include <stdio.h>
-#include "main.h"
 #include <string.h>
+#include "main.h"
+
 /**
- * puts_half - check code
- *
- * @str: function variable
+ * puts_half - prints half of a string followed by a new line
+ * @str: word to be printed in half
  *
  */
+
 void puts_half(char *str)
 {
-	int i,n;
-	int length = (strlen(str) - 1);
-	int index = length / 2;
+	int length = strlen(str);
 	char word;
+	int i, n;
 
-	n = strlen(n);
-
-	for (i = index + 1; i < n; i++)
+	if (length % 2 == 0)
 	{
-		if (length % 2 == 0)
-		{
-			word  = str[i];
-			putchar(word);
-
-		}
-		else
+		n = (length - 1) / 2;
+		for (i = n + 1; i < length; i++)
 		{
 			word = str[i];
 			putchar(word);
-
 		}
-
+	}
+	else
+	{
+		n = (length - 1) / 2;
+		for (i = n + 1; i < length; i++)
+		{
+			word = str[i];
+			putchar(word);
+		}
 	}
 	putchar('\n');
 }
-
