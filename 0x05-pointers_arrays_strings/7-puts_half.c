@@ -12,20 +12,22 @@ void puts_half(char *str)
 	int i;
 	int length = (strlen(str) - 1);
 	char word;
-	int half_length = ((strlen(str) - 1) / 2);
+	int index;
 
 	for (i = 0; i <= length; i++)
 	{
 		if (length % 2 == 0)
 		{
-			word = str[i];
-			putchar(word);
+			index = (length / 2);
+
+			
 		}
 		else
 		{
-			word = str[i];
-			putchar(word);
+			index = (length - 1 / 2);
+
 		}
+		printf("%s\n", str + index);
 	}
 }
 
