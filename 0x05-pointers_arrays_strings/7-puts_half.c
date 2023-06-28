@@ -28,7 +28,7 @@ void puts_half(char *str)
 			putchar(word);
 
 		}
-		printf("%s\n", str + index);
+
 	}
 }
 
