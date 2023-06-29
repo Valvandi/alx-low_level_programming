@@ -2,7 +2,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * void reverse_array- function to reverse string
+ * reverse_array- function to reverse string
  *
  * @a: parameter
  *
@@ -18,7 +18,7 @@ void reverse_array(int *a, int n)
 		for (j = i + 1; j > 0; j--)
 		{
 			temp = *(a + j);
-			*(a + j) = *(a + (j -1));
+			*(a + j) = *(a + (j - 1));
 			*(a + (j - 1)) = temp;
 		}
 	}
