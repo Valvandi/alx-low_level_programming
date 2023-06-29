@@ -14,9 +14,9 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *ptr;
+	char str_len = strlen(dest);
 
-	ptr = strcat(dest, src);
+	strcat(dest + str_len, src);
 
 	return (ptr);
 }
