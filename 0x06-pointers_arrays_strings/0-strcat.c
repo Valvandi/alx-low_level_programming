@@ -10,7 +10,6 @@
  *
  * Return: Always 0
  *
- * @ptr: initialized pointer
  */
 char *_strcat(char *dest, char *src)
 {
