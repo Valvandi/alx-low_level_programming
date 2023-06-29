@@ -9,12 +9,16 @@
  * @src: function argument
  *
  * Return: Always 0
+ *
+ * @ptr: initialized pointer
  */
 char *_strcat(char *dest, char *src)
 {
-	strcat(desr, src);
+	char *ptr;
 
-	return (0);
+	ptr = strcat(dest, src);
+
+	return (ptr);
 }
 
 
