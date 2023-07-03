@@ -6,6 +6,8 @@
  *
  * @s: function parameter
  *
+ * @i: parameter
+ *
  * @b: function parameter
  *
  * @n: function parameter
@@ -14,8 +16,10 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	return (void *memset(void *s, int b, size_t n));
-
-
+	for (unsigned int i = 0; i < n; i++)
+	{
+		s[i] = b;
+	}
+	return (s);
 }
 
