@@ -1,4 +1,4 @@
-#include <stdio.h>
+eeeeeeeee#include <stdio.h>
 #include "main.h"
 #include <string.h>
 /**
@@ -25,5 +25,4 @@ void print_chessboard(char (*a)[8])
 		putchar('\n');
 	}
 
-}
 
