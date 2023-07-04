@@ -4,10 +4,13 @@
 /**
  * print_diagsums - function to check code
  *
- * a: function param 
+ * @a: function param
  *
- * size: function param
+ * @size: function param
  *
+ * sum_1: variable
+ *
+ * sum_2: variable
  */
 void print_diagsums(int *a, int size)
 {
@@ -16,13 +19,15 @@ void print_diagsums(int *a, int size)
 
 	for (int i = 0; i < size; i++)
 	{
-		sum_1 += 
+		sum_1 += *(a + i * size + i);
 	}
 
 	for (int j = 0; j < size; j++)
 	{
+		sum_2 += *(a + i * size + (size - 1 - i));
 
 	}
-
+	putchar(sum_1);
+	putchar(sum_2);
 
 }
