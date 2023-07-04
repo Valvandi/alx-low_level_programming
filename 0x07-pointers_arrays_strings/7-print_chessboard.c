@@ -8,12 +8,17 @@
  *
  * i: paramter
  *
+ * j: parameter
+ *
  */
 void print_chessboard(char (*a)[8])
 {
-	for (int i = 0; i < 8; i++)
+	int i, j = 0;
+	int rows;
+
+	for (i = 0; i < rows; i++)
 	{
-		for (int j = 0; j < 8; j++)
+		for (j = 0; j < 8; j++)
 		{
 			putchar(a[i][j]);
 			putchar(' ');
