@@ -11,17 +11,15 @@
  */
 void print_chessboard(char (*a)[8])
 {
-	char board[8][8];
-
-for (int i = 0; i < 8; i++)
-{
-	for (int j = 0; j < 8; j++)
+	for (int i = 0; i < 8; i++)
 	{
-		putchar(board[i][j]);
+		for (int j = 0; j < 8; j++)
+		{
+			putchar(a[i][j]);
 
+		}
+		putchar('\n');
 	}
-	putchar('\n');
-}
 
 }
 
