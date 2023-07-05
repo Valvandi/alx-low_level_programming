@@ -10,7 +10,8 @@
 void _print_rev_recursion(char *s)
 {
 	int length = strlen(s);
+	int i;
 
-	for (int i = length - 1; i > 0; i--)
+	for (i = length - 1; i > 0; i--)
 		putchar(s[i]);
 }
