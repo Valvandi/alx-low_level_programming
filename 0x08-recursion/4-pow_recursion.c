@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-#include <string.h>
 #include <math.h>
 /**
  * _pow_recursion - function to check code
