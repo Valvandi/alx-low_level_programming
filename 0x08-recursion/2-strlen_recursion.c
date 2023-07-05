@@ -6,6 +6,7 @@
  *
  * @s: function parameter
  *
+ * Return: always 0
  */
 int _strlen_recursion(char *s)
 {
