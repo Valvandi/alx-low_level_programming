@@ -10,8 +10,9 @@
  *
  * Return: desired parameter
  */
-int _pow_recursion(int x, int y)
+int _pow_recursion(double x, double y)
 {
+
 	if (y < 0)
 	{
 		return (-1);
