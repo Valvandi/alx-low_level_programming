@@ -1,21 +1,34 @@
+#include <math.h>
 #include <stdio.h>
 #include "main.h"
-#include <math.h>
 /**
- * _pow_recursion - function to check code
+ * _pow_recursion - a function that returns the value of x raised to power of y
+ * @x: int number
  *
- * @x: function parameter
+ * @y: int number
  *
- * @y: function parameter
+ * Return: retuns value of x^y
  *
- * Return: desired parameter
  */
-int _pow_recursion(double x, double y)
-{
 
+int _pow_recursion(int x, int y)
+{
 	if (y < 0)
 	{
 		return (-1);
 	}
-	return (pow(x, y));
+	if (y == 0)
+		return (1);
+	else if (y % 2 == 0)
+	{
+		int temp = _pow_recursion(x, y / 2);
+
+		return (temp * temp);
+	}
+	else
+	{
+		int temp = _pow_recursion(x, (y - 1) / 2);
+
+		return (x * temp * temp);
+	}
 }
