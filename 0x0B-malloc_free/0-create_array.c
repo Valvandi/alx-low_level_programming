@@ -8,25 +8,18 @@
  *
  * @c: function argument
  *
- * Return: array
+ * Return: str
  */
 char *create_array(unsigned int size, char c)
 {
+	char *str;
+	unsigned int i;
 
-	if (size == 0)
-	{
+	str = malloc(sizeof(char) * size);
+	if (size == 0 || str == NULL)
 		return (NULL);
-	}
-	char *array = (char *)malloc(size * sizeof(char));
 
-	if (array != NULL)
-	{
-		unsigned int i;
-
-		for (i = 0; i < size; i++)
-		{
-			array[i] = c;
-		}
-	}
-	return (array);
+	for (i = 0; i < size; i++)
+		str[i] = c;
+	return (str);
 }
