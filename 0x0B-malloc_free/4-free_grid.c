@@ -10,8 +10,8 @@
  *
  * Description: frees memory of grid
  *
- * Return: nothing		
- *		
+ * Return: nothing
+ *
  */
 void free_grid(int **grid, int height)
 {
@@ -21,6 +21,6 @@ void free_grid(int **grid, int height)
 	{
 		free(grid[i]);
 	}
-	free(grid);		
+	free(grid);
 }
 
