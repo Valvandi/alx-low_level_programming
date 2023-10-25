@@ -7,7 +7,7 @@
  *
  * @y: int number
  *
- * Return: retuns value of x^y
+ * Return: retuns value for x^y
  *
  */
 
